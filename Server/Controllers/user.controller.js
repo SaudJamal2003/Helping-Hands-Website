@@ -71,7 +71,7 @@ router.post('/forgot-password', async (req, res) => {
                 service: "gmail",
                 auth: {
                     user: "k213964@nu.edu.pk",
-                    pass: "saudsalah11"
+                    pass: YOUR_PASSWORD_HERE
                 }
             });
         
@@ -139,7 +139,7 @@ router.post('/forgot-foundation-password', async (req, res) => {
                 service: "gmail",
                 auth: {
                     user: "k213964@nu.edu.pk",
-                    pass: "saudsalah11"
+                    pass: YOUR_PASSWORD_HERE
                 }
             });
         
