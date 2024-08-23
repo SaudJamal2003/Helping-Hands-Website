@@ -45,7 +45,7 @@ router.post('/sendTaskMail', async (req, res) => {
               // user: 'ova.bauch52@ethereal.email',
               // pass: 'GM4XPpCW3rPb5fJX9T'
               user: "k213964@nu.edu.pk",
-              pass: "saudjamal2003"
+              pass: YOUR_PASSWORD_HERE
           }
       });
   
