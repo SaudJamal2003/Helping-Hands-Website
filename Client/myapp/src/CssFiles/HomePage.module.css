@@ -1,0 +1,1153 @@
+/* .Nav{
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+   }
+   
+   .dashbtn{
+     position: absolute;
+     height: 30px;
+     width: 32px;
+     margin-top: 1.5%;
+     margin-left: 2.5% ;
+   }
+    
+   .listDiv{
+     display: flex;
+     justify-content: flex-start;
+     width: 80%;
+     margin-top: -10%;
+     background-color: transparent;
+   }
+   
+   .NavList li{
+    margin-top: 24px;
+    display: inline-block;
+    margin-left: 120px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+   }
+
+   .NavList li:hover{
+    color: #FF7070;
+   }
+   
+   .LoginBtn{
+     border: none;
+     font-size: 12px;
+     width: 7%;
+     height: 34px;
+     border-radius: 0.2rem;
+     font-weight: bolder;
+     background-color: white;
+     position: absolute;
+     margin-left: 78%;
+     margin-top: -3%;
+   }
+   
+   .LogoutBtn{
+     border: none;
+     font-size: larger;
+     width: 6%;
+     height: 40px;
+     padding: 2px 10px;
+     border-radius: 0.2rem;
+     border-style: solid;
+     border-width: 1px;
+     letter-spacing: 1px;
+     font-weight: medium;
+     background-color: transparent;
+     position: absolute;
+     margin-left: 86%;
+     margin-top: -3.75%;
+     color: white;
+   }
+ */
+   /* .signupBtn:hover{
+    transition: all 0.5s ease;
+    background-color:#FF7070;
+   }
+   .profilePic{
+    margin-left: 94%;
+    margin-top: -7%;
+    border: none;
+   }
+   
+   .bgp1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10%;
+   }
+   
+   .FirstBgPic{
+     height: 710px;
+     width: 100%;
+     object-fit: cover;
+     margin-top: -10%;
+   }
+   
+   .text{
+     position: absolute;
+     display: flex;
+     align-items: center;
+     height: 73vh;
+     width:80%;
+   }
+   
+   .header{
+     font-weight: bolder;
+     color: white;
+     width: 70%;
+     letter-spacing: 1px;
+     font-size: 50px;
+     margin-left: 8%;
+     margin-top: -20%;
+   }
+   
+   .coloredtext{
+     color:#FF7070
+   }
+     
+   .paratext{
+     position: absolute;
+     color: white;
+     font-size: 10px;
+     font-size: medium;
+     width: 39%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 115vh;
+     margin-left: 6.8%;
+     margin-top: -8%;
+   }
+   
+   .GetStartedBtn{ 
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 140vh;
+     margin-left: -1%;
+     margin-top: -8%;
+     font-size: larger;
+     width: 25%;
+   }
+   
+   .Startbtn{
+     border: none;
+     background-color: #FF7070;
+     color: white;
+     letter-spacing: 0.2px;
+     border-radius: 0.2rem;
+     padding: 10px 15px;
+     text-align: left;
+     width: 39%;
+     height: 57px;
+     font-weight: 500;
+   }
+   
+   #connectDiv{
+     display: flex;
+     justify-content: flex-start;
+     height: 100vh;
+   }
+   
+   .secondHeader{
+     color: #FF7070;
+     width: 180%;
+     text-align: left;
+     text-wrap: balance;
+     font-weight: bolder;
+     font-size: 55px;
+     margin-left: 85px;
+     margin-top: 130px;
+   }
+   
+   .text2{
+     position: absolute;
+     font-weight:500;
+     width: 27%;
+     margin-top: 20px;
+     margin-left: 90px;
+     font-size: large;
+   }
+   
+   .Donatebtn{
+     border: none;
+     background-color: #FF7070;
+     color: white;
+     letter-spacing: 0.4px;
+     padding: 10px 15px;
+     text-align: left;
+     width: 10%;
+     border-radius: 0.2rem;
+     height: 50px;
+     font-weight: 500;
+     font-size: larger;
+     position: absolute;
+     margin-top: 100px;
+     margin-left: 85px;
+   }
+.DonationTypes{
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+}
+
+.clothBtn{
+  width: 55%;
+  height: 380px;
+  border-radius: 0.5rem;
+  overflow-y: hidden;
+  border: none;
+  background-color: transparent;
+  margin-left: 280px;
+  margin-top: 100px;
+}
+.clothImage{
+  margin-left: -3.5px;
+  
+}
+.clothImage:hover{
+  filter: brightness(40%);
+}
+
+.clothTitle{
+  margin-top: -55px;
+  margin-right: 128px;
+  font-weight: lighter;
+  color:white;
+}
+
+.clothBtn p{
+  width: 82%;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: large;
+  text-align: center;
+  text-wrap: balance;
+  color: white;
+  transition: bottom 0.5s;
+}
+.clothBtn:hover p{
+  transition: 0.8s ease-in-out;
+  transform: translateY(-120%);
+}
+.clothBtn:hover .clothTitle{
+  transition: 0.8s ease-in-out;
+  transform: translateY(-580%);
+}
+
+.cashBtn{
+  width: 65%;
+  height: 380px;
+  border-radius: 0.5rem;
+  overflow-y: hidden;
+  border: none;
+  background-color: transparent;
+  margin-left: 40px;
+  margin-top: 150px;
+}
+.cashImage{
+  margin-left: -3.5px;
+}
+.cashImage:hover{
+  filter: brightness(40%);
+}
+
+.cashTitle{
+  margin-top: -55px;
+  margin-right: 150px;
+  font-weight: lighter;
+  color:white;
+}
+
+.cashBtn p{
+  font-weight: 500;
+  font-size: large;
+  text-align: center;
+  text-wrap: balance;
+  color: white;
+  transition: bottom 0.5s;
+}
+.cashBtn:hover p{
+  transition: 0.8s ease-in-out;
+  transform: translateY(-120%);
+}
+.cashBtn:hover .cashTitle{
+  transition: 0.8s ease-in-out;
+  transform: translateY(-600%);
+}
+.foodBtn{
+  width: 70%;
+  height: 380px;
+  border-radius: 0.5rem;
+  overflow-y: hidden;
+  border: none;
+  background-color: transparent;
+  margin-left: -65px;
+  margin-top: 200px;
+}
+.foodImage{
+  margin-left: -3.5px;
+}
+.foodImage:hover{
+  filter: brightness(40%);
+}
+
+.foodTitle{
+  margin-top: -55px;
+  margin-right: 150px;
+  font-weight: lighter;
+  color:white;
+}
+
+.foodBtn p{
+  font-weight: 500;
+  font-size: large;
+  text-align: center;
+  text-wrap: balance;
+  color: white;
+  transition: bottom 0.5s;
+}
+.foodBtn:hover p{
+  transition: 0.8s ease-in-out;
+  transform: translateY(-120%);
+}
+.foodBtn:hover .foodTitle{
+  transition: 0.8s ease-in-out;
+  transform: translateY(-550%);
+}
+
+.foundationBlock{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #FF7070;
+  height: 420px;
+}
+
+.foundationBlock h1{
+  color: white;
+  font-weight: bolder;
+  font-size: 55px;
+  font-family: sans-serif;
+  margin-top: -2%;
+  margin-left: 28%;
+}
+
+.foundationBlock p{
+  color: white;
+  width: 60%;
+  font-size: 22px;
+  margin-top: 1.2%;
+  margin-left: 20%;
+  text-wrap: balance;
+  text-align: center;
+}
+
+.viewFoundationbtn{
+  width: 20%;
+  height: 60px;
+  border: none ;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #FF7070;
+  margin-top: 2%;
+  margin-left: 40%;
+}
+
+.bg3{
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(55%);
+}
+.volunteerBlock{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-top: -25%;
+  position: absolute;
+}
+
+.volunteerBlock h1{
+  margin-left: 1%;
+  text-wrap: balance;
+  text-align: center;
+  font-size: 50px;
+}
+
+.volunteerBlock p{
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-wrap: balance;
+  text-align: center;
+  width: 50%;
+  margin-top: 2%;
+  margin-left: -2%;
+}
+
+.volunteerBtn{
+  width: 120%;
+  height: 60px;
+  border: none ;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: white;
+  background-color: #FF7070;
+  margin-top: 6%;
+  margin-left: -12%;
+}
+ */
+/* .mainFrame{
+  overflow-x: hidden;
+}
+ .Nav{
+  background-color: transparent;
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+}
+ 
+ .dashbtn{
+   position: absolute;
+   height: 30px;
+   width: 32px;
+   margin-top: 1.5%;
+   margin-left: 2.5% ;
+ }
+  
+ .listDiv{
+   display: flex;
+   justify-content: flex-start;
+   width: 80%;
+   margin-top: 10px;
+ }
+ 
+ .NavList li{
+  margin-top: 24px;
+  display: inline-block;
+  margin-left: 120px;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 18px;
+ }
+
+ .NavList li:hover{
+  color: #FF7070;
+  cursor: pointer;
+ }
+
+ .logo{
+  cursor: pointer;
+ }
+ 
+ .LoginBtn{
+   border: none;
+   font-size: 12px;
+   width: 7%;
+   height: 34px;
+   border-radius: 0.2rem;
+   font-weight: bolder;
+   background-color: white;
+   position: absolute;
+   margin-left: 78%;
+   margin-top: -3%;
+ }
+ 
+ .LogoutBtn{
+   border: none;
+   font-size: larger;
+   width: 6%;
+   height: 40px;
+   padding: 2px 10px;
+   border-radius: 0.2rem;
+   border-style: solid;
+   border-width: 1px;
+   letter-spacing: 1px;
+   font-weight: medium;
+   background-color: transparent;
+   position: absolute;
+   margin-left: 86%;
+   margin-top: -3.75%;
+   color: white;
+ }
+
+ .signupBtn:hover{
+  transition: all 0.5s ease;
+  background-color:#FF7070;
+ }
+ .profilePic{
+  margin-left: 94%;
+  margin-top: -7%;
+  border: none;
+ }
+ 
+ .bgp1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 70px;
+ }
+ 
+ .FirstBgPic{
+   height: 710px;
+   width: 100%;
+   object-fit: cover;
+   margin-top: -5%;
+   border-radius: 0 0 100px 100px;
+ }
+ 
+ .text{
+   position: absolute;
+   display: flex;
+   align-items: center;
+   height: 73vh;
+   width:80%;
+ }
+ 
+ .header{
+   font-weight: bolder;
+   position: absolute;
+   color: white;
+   width: 70%;
+   font-family: 'outfit';
+   letter-spacing: 1px;
+   font-size: 50px;
+   text-align: center;
+   margin-left: 372.19px;
+   margin-top: -5%;
+ }
+ 
+ .coloredtext{
+   color:#FF7070
+ }
+   
+ .GetStartedBtn{ 
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 140vh;
+   margin-left: 215px;
+   margin-top: -210px;
+   font-size: larger;
+   border-radius: 7px;
+   width: 30%;
+ }
+ 
+ .Startbtn{
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #FF7070;
+  border-color: white;
+  font-family: 'outfit';
+  border-radius: 7px;
+  width: 200px;
+  margin-left: 700px;
+  margin-top: 180px;
+  height: 62px;
+ }
+ .Startbtn:hover{
+  transition: 0.5s ease;
+  color: #FF7070;
+  background-color: transparent ;
+  border-style: solid;
+  border-color: #FF7070;
+}
+ #connectDiv{
+   display: flex;
+   justify-content: flex-start;
+   height: 100vh;
+   text-align: center;
+ }
+ 
+ .secondHeader{
+   color: #FF7070;
+   width: 180%;
+   text-align: center;
+   line-height: 1.3em;
+   font-weight: bolder;
+   font-size: 45px;
+   margin-top: 60px;
+  font-family: 'Outfit';
+  }
+
+ 
+ .text2{
+  color: #000000;
+  width: 180%;
+  text-align: center;
+  line-height: 1.3em;
+  font-weight:500;
+  font-size: 20px;
+  font-family: 'Outfit';
+  margin-top: 20px;
+ }
+ 
+ .Donatebtn{
+  font-size: 22px;
+  font-weight: 500;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'outfit';
+  background-color: #FF7070;
+  border-color: white;
+  border-radius: 7px;
+  width: 200px;
+  margin-left: 700px;
+  margin-top: 20px;
+  height: 62px;
+ }
+ .Donatebtn:hover{
+  transition: 0.5s ease;
+  color: #FF7070;
+  border-style: solid;
+  border-color: #FF7070;
+  background-color: #ffffff ;
+}
+
+.cashline{
+  height: 144.43px;
+  width: 154.74px;
+  margin-top: 300px;
+  margin-left: 0px;
+  align-items: center;
+  z-index: -1;
+}
+.foodline{
+  height: 162.37px;
+  width: 236.59px;
+  margin-top: 340px;
+  margin-left: -900px;
+  align-items: center;
+  z-index: -1;
+}
+.clothline{
+  height: 172.22px;
+  width: 255.2px;
+  margin-top: 400px;
+  margin-left: 500px;
+  align-items: center;
+  z-index: -1;
+}
+.DonationBox{
+  height: 400px;
+  width: 550px;
+  margin-top: 340px;
+  margin-left: -380px;
+  align-items: center;
+  z-index: -1; */
+  /* transition: margin-left 0.5s, margin-top 0.5s; Add transition for smooth animation */
+
+/* } */
+
+/* .DonationBox:focus {
+  margin-top: 0; /* Adjust this value to change the final top position */
+  /* margin-left: 0; Adjust the value as per your requirement */
+/* } */
+/* 
+
+
+.foundationBlock{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+border-radius: 100px 100px 0 0 ;
+background-color: #FF7070;
+height: 420px;
+}
+
+.foundationBlock h1{
+color: white;
+font-weight: bolder;
+font-size: 45px;
+font-family: 'outfit';
+align-items: center;
+text-align: center;
+margin-left: 5%;
+
+}
+
+.foundationBlock p{
+color: white;
+width: 60%;
+font-size: 22px;
+margin-top: 1.2%;
+margin-left: 22%;
+text-wrap: balance;
+text-align: center;
+font-family: 'outfit';
+}
+
+.viewFoundationbtn{
+font-size: 22px;
+font-weight: 500;
+border: none;
+align-items: center;
+justify-content: center;
+color: #FF7070;
+background-color: #ffffff;
+border-color: white;
+border-radius: 7px;
+width: 250px;
+font-family: 'outfit';
+margin-left: 690px;
+margin-top: 20px;
+height: 62px;
+}
+
+.bg3{
+width: 100%;
+object-fit: cover;
+filter: brightness(55%);
+}
+.volunteerBlock{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-left: 25%;
+margin-top: -25%;
+position: absolute;
+}
+
+.volunteerBlock h1{
+margin-left: 1%;
+text-align: center;
+font-size: 45px;
+font-family: 'Outfit';
+margin-top: -300px;
+}
+
+.volunteerBlock p{
+color: white;
+font-size: 15px;
+font-weight: 500;
+letter-spacing: 1px;
+text-wrap: balance;
+text-align: center;
+width: 50%;
+margin-top: -50px;
+margin-left: -2%;
+}
+
+.volunteerBtn{
+width: 120%;
+height: 60px;
+border-radius: 7px ;
+font-weight: 500;
+letter-spacing: 1px;
+font-size: 20px;
+color: white;
+background-color: #FF7070;
+font-family: 'outfit';
+margin-top: 6%;
+margin-left: -12%;
+}
+.volunteerBtn:hover{
+transition: 0.5s ease;
+color: #FF7070;
+background-color: #ffffff ;
+}
+.footer{
+width: 100%;
+height: 475px;
+} 
+
+
+@media (max-width: 1000px){
+  .Nav{
+    display: none;
+  }
+  .FirstBgPic{
+    margin-top: -7.1%;
+    height: 180px;
+    width: 100%;
+  }
+  .header{
+    font-size: 3.2vmax;
+    color: #FF7070;
+    width: 100%;
+    background-color: aliceblue;
+  }
+}  */
+
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.Nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 53px;
+  background-color: transparent;
+  margin-top: 10px;
+}
+.Nav img{
+  padding-left: 60px;
+  cursor: pointer;
+}
+.lists{
+  font-family: 'outfit';
+  width: 90%;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listOne{
+  width: 70%;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  gap: 200px;
+  font-size: 19px;
+  margin: 0px 10px 0px 0px;
+  list-style-type: none;
+}
+.listOne li{
+  cursor: pointer;
+}
+
+.secondOne{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.secondOne li{
+ color: white;
+ font-size: 19px;
+ margin-top: 13px;
+ cursor: pointer;
+}
+
+.coverDiv{
+  background-image: url('../HomePageImages2/FirstBgPic.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color:  rgb(247, 166, 166);
+  height: 650px;
+  align-items: center;
+  border-radius: 0px 0px 5rem 5rem;
+}
+.header{
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  color: white;
+  font-weight: 700;
+  height: 400px;
+  font-family: 'outfit';
+  
+}
+.coloredtext{
+  color: #FF7070
+}
+.text2{
+  color: black;
+  font-size: 20px;
+}
+.Donatebtn{
+  font-size: 22px;
+  font-weight: 500;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'outfit';
+  background-color: #FF7070;
+  border-color: white;
+  border-radius: 7px;
+  width: 200px;
+  height: 62px;
+ }
+ .Donatebtn:hover{
+  transition: 0.5s ease;
+  color: #FF7070;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #FF7070;
+  background-color: transparent ;
+}
+.hiddenText{
+  color: rgba(255, 255, 255, 0.815);
+  font-weight: 700;
+  font-family: 'outfit';
+  display: none;
+  font-size: 35px;
+  margin-top: -34px;
+}
+.DonateDiv{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.DonateDiv h1{
+  font-family: 'outfit';
+  font-weight: 700;
+  text-align: center;
+  color: #FF7070;
+}
+.DonateDiv p{
+  font-family: 'outfit';
+  text-align: center;
+}
+.BoxPic{
+  width: 100%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.cashline{
+  height: 144.43px;
+  width: 154.74px;
+  margin-top: -300px;
+  align-items: center;
+}
+.foodline{
+  height: 162.37px;
+  width: 236.59px;
+  margin-left: -900px;
+  align-items: center;
+}
+.clothline{
+  height: 172.22px;
+  width: 255.2px;
+  margin-left: 500px;
+  align-items: center;
+}
+.DonationBox{
+  height: 400px;
+  width: 550px;
+  margin-left: 225px;
+  align-items: center;
+}
+.foundationBlock{
+  margin-top: -24.75px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 450px;
+  background: linear-gradient(to right, #fad3d5, rgb(250, 157, 157));
+
+  align-items: center;
+  justify-content: center;
+  font-family: 'outfit';
+  border-radius: 5rem 5rem 0rem 0rem;
+}
+.foundationBlock h1{
+  color: white;
+  font-weight: 700;
+}
+.foundationBlock p{
+  color: white;
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+}
+.viewFoundationbtn{
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  color: #FF7070;
+  background-color: #ffffff;
+  border-color: white;
+  border-radius: 7px;
+  width: 230px;
+  font-family: 'outfit';
+  height: 60px; 
+}
+.volunteerBlock{
+  background-image: url('../HomePageImages2/ThirdBgPic.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(98%);
+  margin-top: -25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 650px;
+  }
+  
+  .volunteerBlock h1{
+  text-align: center;
+  color: rgb(255, 254, 254);
+  font-weight: 700;
+  font-size: 50px;
+  font-family: 'outfit';
+  }
+  
+  .volunteerBlock p{
+  color: white;
+  font-size: 19px;
+  width: 40%;
+  font-weight: 500;
+  text-align: center;
+  }
+  
+  .volunteerBtn{
+  width: 120%;
+  height: 60px;
+  border-radius: 7px ;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: white;
+  background-color: #FF7070;
+  font-family: 'outfit';
+  }
+  .volunteerBtn:hover{
+  transition: 0.5s ease;
+  color: #FF7070;
+  font-size: 22px;
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent ;
+  }
+  .footer{
+    margin-top: -24.99px;
+    width: 100%;
+    height: 475px;
+    object-fit: cover;
+  }
+
+
+
+@media (max-width: 1000px){
+  .Nav{
+    justify-content:center;
+    align-items: center;
+  }
+  .listOne{
+    font-size: 3.6vmin;
+    gap: 80px;
+  }
+  .Nav img{
+    display: none;
+  }
+  .secondOne li{
+     font-size: 3.6vmin;
+  }
+  .secondOne img{
+    display: none;
+  }
+  .coverDiv{
+    gap: 80px;
+    height: 440px;
+  }
+  .header{
+    margin-top: 18px;
+    width: 75%;
+    font-size: 2.5vmax;
+  }
+  .Donatebtn{
+    font-size: 3.6vmin;
+    width: 100px;
+    height: 40px;
+  }
+  .hiddenText{
+    display: block;
+  }
+  .DonateDiv h1{
+    font-size: 2.8vmax;
+  }
+  .DonateDiv p{
+    font-size: 3.5vmin;
+  }
+  .clothline,.cashline,.foodline{
+    display: none;
+  }
+  .DonationBox{
+    margin-left: 0px;
+    width: 280px;
+    height: 200px;
+  }
+  .foundationBlock h1{
+    font-size: 3.2vmax;
+  }
+  .foundationBlock p{
+    font-size: 4vmin;
+    width: 80%;
+  }
+  .viewFoundationbtn{
+    width: 105%;
+    height: 50px;
+    font-size: 3.6vmin;
+  }
+  .volunteerBlock{
+    height: 400px;
+  }
+  .volunteerBlock h1{
+    font-size: 4.2vmax;
+  }
+  .volunteerBlock p{
+    font-size: 4vmin;
+    width: 90%;
+  }
+  .volunteerBtn{
+    font-size: 3.8vmin;
+    width: 100%;
+    height: 50px;
+  }
+  .footer{
+    height: 200px;
+  }
+
+}
+
+@media(max-width: 700px){
+  .lists{
+    justify-content: flex-start;
+  }
+  .listOne{
+    width: 95%;
+  }
+}
+
+@media(max-width: 535px){
+  .listOne .about{
+    display: none;
+  }
+  .listOne{
+    width: 70%;
+  }
+  .DonateDiv p{
+    width: 80%;
+  }
+}

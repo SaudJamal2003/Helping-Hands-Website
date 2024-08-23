@@ -1,0 +1,530 @@
+/* 
+.navbar{
+    height:70px;
+    width: 100%;
+    background-color: white;
+}
+
+#logoDivs{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.navBtns{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100%;
+}
+
+.profilePic{
+    position: absolute;
+    background-color: white;
+    margin-left: -100px; 
+    margin-top: 45px;
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.DashBoard{
+    margin-top: 2%;
+    width: 25%;
+    height: 400px;
+    display: flex;
+    
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+.menuTitle{
+    position: fixed;
+    width: 14.5%;
+    height: fit-content;
+    margin-top: 3%;
+    margin-left: 2.5%;
+    color:  #000;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'outfit';
+}
+
+.dashBtn{
+      position: fixed;
+    color:  #000;
+    letter-spacing: 1px;
+    font-size: larger;
+    background-color: white;
+    border-radius: 0.15rem;
+    border: none;
+    height: 50px;
+    width: 17%;
+    margin-top: 110px;
+    margin-left: 40px;
+    font-family: 'outfit';
+
+}
+.dashBtn:hover{
+    background-color: #FF7070;
+    color: white;
+    transition: 0.5s;
+}
+
+.UserProfileBtn{
+    position: fixed;
+    color:  #000;
+    letter-spacing: 1px;
+    font-size: larger;
+    background-color: white;
+    border-radius: 0.15rem;
+    border: none;
+    height: 50px;
+    width: 17%;
+    margin-top: 250px;
+    margin-left: 40px;
+    font-family: 'outfit';
+   
+}
+.UserProfileBtn:hover{
+    background-color: #FF7070;
+    color: white;
+    transition: 0.5s;
+}
+
+.FoundationsBtn{
+    position: fixed;
+    color:white;
+    letter-spacing: 1px;
+    font-size: larger;
+    background-color:#FF7070;
+    border-radius: 0.15rem;
+    border: none;
+    height: 50px;
+    width: 17%;
+    margin-top: 180px;
+    margin-left: 40px;
+}
+
+
+.HomeBtn{
+    position: fixed;
+    color:  #000;
+    letter-spacing: 1px;
+    font-size: larger;
+    background-color: white;
+    border-radius: 0.15rem;
+    border: none;
+    height: 50px;
+    width: 17%;
+    margin-top: 320px;
+    margin-left: 40px;
+}
+
+.HomeBtn:hover{
+    background-color: #FF7070;
+    color: white;
+    transition: 0.5s;
+}
+
+.DashTeams{
+    height: 200px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.teams{
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 1px;
+    margin-top: 45px;
+    margin-right: 215px;
+    float: left;
+    font-weight: 400;
+    height: fit-content;
+    position: fixed;
+}
+
+.Design{
+    letter-spacing: 2px;
+    font: caption;
+    margin-top: 100px;
+    margin-left: -120px;
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+}
+.Devlopment{
+    letter-spacing: 1px;
+    font: caption;
+    margin-top: 145px;
+    margin-left: -80px;
+    color: rgb(45, 40, 40);
+    height: fit-content;
+    width: fit-content;
+    position: fixed;
+    float: left;
+
+}
+
+.card{
+    border: none;
+    display: flex;
+    font-family: 'outfit';
+    padding: 15px;
+}
+
+.foundations{
+    width: 20%;
+    height: fit-content;
+    margin-top: -620px;
+    margin-left: 420px;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    font-family: 'outfit';
+
+}
+
+
+.title{
+    font-family: 'outfit';
+    font-size: 35px;
+    font-weight: 650;
+    width: 100%;
+    margin-left: -38px;
+    letter-spacing: -0.6px;
+}
+
+
+.foundationDescription{
+    width: 65%;
+    height: 550px;
+    margin-top: 45px;
+    font-family: 'outfit';
+    margin-left: 420px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.foundationNames{
+    display: flex;
+    background-color: #FF7070;
+    width: 167%;
+    height: 320px;
+    border-radius: 0.6rem;
+}
+.foundationNames img{
+    height: 240px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0.6rem;
+    margin-top: 20px;
+    margin-left: 11px;
+}
+.foundationNames h2{
+    margin-top: 40px;
+    margin-left: 25px;
+    width: 50%;
+    font-weight: 500;
+    font-size: 27px;
+    color: white;
+    height: fit-content;
+
+}
+.foundationDescription .scroll-bar{
+    height: 550px;
+    width: 167%;
+    border: none;
+    overflow-x: hidden;
+    border-radius: 1rem;
+}
+
+.text{
+    height: fit-content;
+    margin-top: -225px;
+    margin-left: 335px;
+    width: 60%;
+    font-family: 'outfit';
+}
+
+.text p {
+    letter-spacing: 1.5px;
+    color: white;
+    font-family: 'outfit';
+} */
+.main{
+    display: flex;
+}
+
+.navbar{
+    background-color: #FFFFFF;
+    width: 21%;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 150px;
+    margin-top: 0px;
+    object-fit: cover;
+    height: 42px;
+    width: 91px;
+}
+.mainMenu{
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #000000;
+    font: 500;
+    font-size: 20px;
+    font-family: 'Outfit';
+}
+.mainMenu button{
+    height: 52px;
+    width: 100%;
+    border-radius: 4.5px;
+    font: medium;
+    font-size: 20px;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    border: none;
+    font-family: 'Outfit';
+}
+
+.mainMenu button p{
+    margin-top: 15.25px;
+}
+
+.adminBtn{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.adminBtn p{
+    color: #000000;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    height: 52px;
+}
+
+.DashBtn {
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+.DashBtn p{
+    color: #000000;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    height: 52px;
+}
+
+.foundationBtn{
+    background-color: #FF7070;
+}
+.foundationBtn p{
+    color: #FFFFFF;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    height: 52px;
+}
+
+.statsBtn{
+    background-color: #FFFFFF;
+}
+.statsBtn p{
+    color: #000000;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    height: 52px;
+}
+
+.DashBtn:hover{
+    background-color: #FF7070;
+    transition: 0.5s;
+}
+.DashBtn p:hover{
+    transition: 0.5s;
+    color: #FFFFFF;
+}
+.adminBtn:hover{
+    background-color: #FF7070;
+    transition: 0.5s;
+}
+.adminBtn p:hover{
+    transition: 0.5s;
+    color: #FFFFFF;   
+}
+.statsBtn:hover{
+    background-color: #FF7070;
+    transition: 0.5s;
+}
+.statsBtn p:hover{
+    transition: 0.5s;
+    color: #FFFFFF;   
+}
+
+.teams{
+    cursor: pointer;
+    font: medium;
+    font-size: 20px;
+    color: #000000;
+    margin-right: 65px;
+    font-family: 'Outfit';
+}
+.utility{
+    cursor: pointer;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    font: medium;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Outfit';
+}
+.setting{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-family: 'Outfit';
+}
+.setting p{
+    margin-top: 12px;
+    color: #000000;
+}
+.logout{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.logout p{
+    margin-left: 8px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.foundationsDiv{
+    display: flex;
+    flex-direction: column;
+    width: 79%;
+    gap: 15px;
+}
+.foundationsDiv h1{
+    margin-top: 4.5%;
+    font-size: 38px;
+}
+
+.foundationDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scrollBar{
+    height: 650px;
+    width: 85%;
+    border: none;
+    overflow-x: hidden;
+    border-radius: 1rem;
+}
+
+.card{
+    display: flex;
+    background-color: #FF7070;
+    width: 99%;
+    margin-bottom: 20px;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 1rem;
+}
+
+.FoundationPic{
+    height: 200px;
+    width: 280px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text h2{
+    color: #FFFFFF;
+    font-family: 'Outfit';
+}
+.text p{
+    color: #FFFFFF;
+    font-family: 'Outfit';
+}
+
+
+@media(max-width: 990px){
+    .main{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: row;
+        width: 100%;
+        height: 55px;
+        position: fixed;
+        bottom: 0px;
+        border-radius: 0px;
+    }
+    .logo{
+        display: none;
+    }
+    .mainMenu h4{
+        display: none;
+    }
+    .mainMenu{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 60px;
+        gap: 60px;
+    }
+    .mainMenu button{
+        width: fit-content;
+    }
+    .mainMenu button p{
+        display: none;
+    }
+    .teams{
+        display: none;
+    }
+    .utility{
+        display: none;
+        width: 20%;
+        gap: 20px;
+        flex-direction: row;
+    }
+    .utility p{
+       display: none;
+    }
+
+    .foundationsDiv{
+        background: linear-gradient(to right, #ffe6f0,#da8d8d);
+        width: 100%;
+    }
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+}

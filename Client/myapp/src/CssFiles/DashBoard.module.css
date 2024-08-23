@@ -1,0 +1,407 @@
+.main{
+    display: flex;
+}
+
+.navbar{
+    background-color: #FFFFFF;
+    width: 21%;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 150px;
+    margin-top: 0px;
+    object-fit: cover;
+    height: 42px;
+    width: 91px;
+}
+.mainMenu{
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #000000;
+    font: 500;
+    font-size: 20px;
+    font-family: 'Outfit';
+}
+.mainMenu button{
+    height: 52px;
+    width: 100%;
+    border-radius: 4.5px;
+    font: medium;
+    font-size: 20px;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    border: none;
+    font-family: 'Outfit';
+}
+
+.mainMenu button p{
+    margin-top: 15.25px;
+}
+
+.adminBtn{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.adminBtn p{
+    color: #000000;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    height: 52px;
+}
+
+.DashBtn {
+    background-color: #FF7070;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.foundationBtn{
+    background-color: #FFFFFF;
+}
+.foundationBtn p{
+    color: #000000;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    height: 52px;
+}
+
+.statsBtn{
+    background-color: #FFFFFF;
+}
+.statsBtn p{
+    color: #000000;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    height: 52px;
+}
+.foundationBtn:hover{
+    background-color: #FF7070;
+    transition: 0.5s;
+    color: #FFFFFF;
+}
+.foundationBtn p:hover{
+    transition: 0.5s;
+    color: #FFFFFF;
+}
+.DashBtn:hover{
+    background-color: #FF7070;
+    transition: 0.5s;
+}
+.DashBtn p:hover{
+    transition: 0.5s;
+    color: #FFFFFF;
+}
+.adminBtn:hover{
+    background-color: #FF7070;
+    transition: 0.5s;
+}
+.adminBtn p:hover{
+    transition: 0.5s;
+    color: #FFFFFF;   
+}
+.statsBtn:hover{
+    background-color: #FF7070;
+    transition: 0.5s;
+}
+.statsBtn p:hover{
+    transition: 0.5s;
+    color: #FFFFFF;   
+}
+
+.teams{
+    cursor: pointer;
+    font: medium;
+    font-size: 20px;
+    color: #000000;
+    margin-right: 65px;
+    font-family: 'Outfit';
+}
+.utility{
+    cursor: pointer;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    font: medium;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Outfit';
+}
+.setting{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-family: 'Outfit';
+}
+.setting p{
+    margin-top: 12px;
+    color: #000000;
+}
+.logout{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.logout p{
+    margin-left: 8px;
+    margin-top: 10px;
+    color: #000000;
+
+}
+
+
+.mainSegment{
+    display: flex;
+    flex-direction: column;
+    width: 79%;
+    background-color: #faf7f7;
+}
+.firstHalf{
+    display: flex;
+    height: fit-content;
+}
+.recentlyDonated{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 2%;
+    align-items: center;
+    font-family: 'Outfit';
+
+}
+.scrollBar{
+    height: 75%;
+    width: 550px;
+    border: none;
+    overflow: auto;
+    border-radius: 1rem;
+    background-color: #faf7f7;   
+}
+.scrollDiv{
+    background-color: #faf7f7;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.ScrollContainer{
+    display: flex;
+    justify-content: flex-start;
+    height: 320px;
+    border: none;
+    width: 100%;
+    background-color:#faf7f7;
+} 
+
+.personBtn1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 95%;
+}
+.personBtn1:hover{
+    color: #000000;
+    background-color: #faf7f7;
+    transition: 0.5s;
+}
+
+.date1{
+    font-size: 15px;
+}
+
+.numbersDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.firstBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: dashed;
+    border-radius: 1rem;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0px 3px 3px rgb(145, 144, 144)
+}
+.firstBox h2,h1{
+    text-align: center;
+    text-wrap: balance;
+    font-family: 'Outfit';
+}
+.firstBox:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.secondBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: dashed;
+    border-radius: 1rem;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0px 3px 3px rgb(145, 144, 144)
+}
+.secondBox:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.secondBox h2,h1{
+    text-align: center;
+    text-wrap: balance;
+    font-family: 'Outfit';
+}
+.table{
+    height: fit-content;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+.table h2{
+    font-family: 'Outfit';
+}
+.tableContainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tableBtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    font-family: 'Outfit';
+}
+.tableBtn:hover{
+    color: #000000;
+    background-color: #faf7f7;
+    transition: 0.5s;
+}
+.tableBtn p{
+    width: 25.75%;
+    height: 44px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.tableBtn p:hover{
+    color: black;
+}
+
+
+
+
+@media(max-width: 990px){
+    .main{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: row;
+        width: 100%;
+        height: 55px;
+        position: fixed;
+        bottom: 0px;
+        border-radius: 0px;
+    }
+    .logo{
+        display: none;
+    }
+    .mainMenu h4{
+        display: none;
+    }
+    .mainMenu{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 60px;
+        gap: 60px;
+    }
+    .mainMenu button{
+        width: fit-content;
+    }
+    .mainMenu button p{
+        display: none;
+    }
+    .teams{
+        display: none;
+    }
+    .utility{
+        display: none;
+        width: 20%;
+        gap: 20px;
+        flex-direction: row;
+    }
+    .utility p{
+       display: none;
+    }
+    .mainSegment{
+        width: 100%;
+    }
+    .firstHalf{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .recentlyDonated h1{
+        font-weight: 700;
+    }
+    .scrollDiv{
+        width: 130%;
+        height: 300px;
+    }
+    .personPic1{
+        display: none;
+    }
+    .personBtn1{
+        font-size: 4vmin;
+    }
+    .numbersDiv{
+        flex-direction: column;
+        margin-bottom: 100px;
+        gap: 40px;
+    }
+    .firstBox{
+        width: 80%;
+    }
+    .firstBox h2,h1{
+        font-size: 3.2vmax;
+    }
+    .secondBox{
+        width: 80%;
+    }
+    .secondBox h2,h1{
+        font-size: 3.2vmax;
+    }
+    .table{
+        width: 80%;
+    }
+
+
+
+}

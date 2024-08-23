@@ -1,0 +1,240 @@
+.navbar{
+    height:70px;
+    width: 25%;
+    /* display:flex; */
+    /* justify-content: flex-start; */
+    
+}
+
+#logoDivs{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.navBtns{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: aqua; */
+    position: absolute;
+    width: 100%;
+}
+
+.profilePic{
+    position: absolute;
+    background-color: transparent;
+    /* margin-left: -8%; */
+    margin-right: 50px;
+    margin-top: 48px;
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.DashBoard{
+    margin-top: 2%;
+    font-family: 'outfit';
+    width: 25%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+.menuTitle{
+    position: fixed;
+    width: 14.5%;
+    height: fit-content;
+    margin-top: 3%;
+    margin-left: 2.5%;
+    color: rgb(183, 177, 177);
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashBtn{
+    position: fixed;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: larger;
+    background-color: white;
+    border-radius: 0.15rem;
+    border: none;
+    height: 50px;
+    width: 17%;
+    margin-top: 110px;
+    margin-left: 40px;
+}
+.dashBtn:hover{
+    background-color: #FF7070;
+    color: white;
+    transition: 0.5s;
+}
+
+.UserProfileBtn{
+    letter-spacing: 1px;
+    font-size: larger;
+    background-color: #FF7070;
+    color: rgb(255, 255, 255);
+    border-radius: 0.15rem;
+    border: none;
+    height: 50px;
+    width: 16.5%;
+    margin-top: 11%;
+    margin-left: 2.7%;
+    position: absolute;
+
+}
+.UserProfileBtn:hover{
+    background-color: #FF7070;
+    color: white;
+    transition: 0.5s;
+}
+
+.FoundationsBtn{
+    position: fixed;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: larger;
+    background-color: white;
+    border-radius: 0.15rem;
+    border: none;
+    height: 50px;
+    width: 17%;
+    margin-top: 250px;
+    margin-left: 40px;
+}
+
+.FoundationsBtn:hover{
+    background-color: #FF7070;
+    color: white;
+    transition: 0.5s;
+}
+
+.HomeBtn{
+    position: fixed;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: larger;
+    background-color: white;
+    border-radius: 0.15rem;
+    border: none;
+    height: 50px;
+    width: 17%;
+    margin-top: 320px;
+    margin-left: 40px;
+}
+
+.HomeBtn:hover{
+    background-color: #FF7070;
+    color: white;
+    transition: 0.5s;
+}
+
+.DashTeams{
+    height: 200px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.teams{
+    font-size: 20px;
+    color: rgb(183, 177, 177);
+    letter-spacing: 1px;
+    margin-top: 45px;
+    margin-right: 215px;
+    float: left;
+    font-weight: 400;
+    height: fit-content;
+    position: fixed;
+}
+
+.Design{
+    letter-spacing: 2px;
+    font: caption;
+    margin-top: 100px;
+    margin-left: -120px;
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+}
+.Devlopment{
+    letter-spacing: 1px;
+    font: caption;
+    margin-top: 145px;
+    margin-left: -80px;
+    color: rgb(45, 40, 40);
+    height: fit-content;
+    width: fit-content;
+    position: fixed;
+    float: left;
+}
+
+.UserProfileHeader{
+    width: 74.25%;
+    font-family: "Outfit";
+    height: 710px;
+    margin-top: -700px;
+    margin-left: 410px;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    background-color: #faf7f7;
+
+}
+
+.title{
+    font-size: 38px;
+    font-weight: 650;
+    font-family:'outfit';
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 30px;
+    letter-spacing: -1px;
+}
+
+.bigProfilePic{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    margin-top: 180px;
+    margin-left: 20px;
+}
+.name{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 230px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.email{
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 232px;
+    font-size: larger;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 0px;
+}
+.registration{
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 232px;
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 12px 0px;
+
+}

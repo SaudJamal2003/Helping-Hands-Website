@@ -1,0 +1,329 @@
+.coverPhoto{
+    background-color: #f6caca;
+    width: 60%;
+}
+
+.coverPhoto p{
+    width: 30%;
+    color: rgb(184, 90, 90);
+    text-align: right;
+}
+
+.Image{
+    width: 100%;
+    height: 710px;
+    object-fit: cover;
+}
+
+.text{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: -550px;
+}
+
+.text h1{
+    color: white;
+    width: 50%;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: right;
+    text-wrap: balance;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.text p{
+    color: white;
+    width: 55%;
+    margin-right: 20px;
+}
+
+.Main{
+    display: flex;
+}
+.fromBlock{
+    width: 40%;
+    height: 710px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fromBlock h1{
+    font-weight: 550;
+    letter-spacing: -2px;
+    font-family:  sans-serif;
+}
+.form{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem; 
+    border-style: solid;
+    border-color: white;
+}
+
+.fields:hover{
+    transition: 0.8s ease-in-out;
+    filter: drop-shadow(10px 4px 0px white);
+}
+
+.emailLabel{
+    margin-right: 305px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: larger;
+    margin-top: 50px;
+    color: rgb(24, 23, 23);
+
+}
+.EmailField{
+    height: 60px;
+    border-radius: 0.3rem;
+    width: 70%;
+    margin-top: -10px;
+    transition: border-color 0.3s ease
+}
+
+.EmailField::placeholder{
+    letter-spacing: 1px;
+    font-size: large;
+    padding: 5px;
+    font-family: "Outfit";
+
+}
+
+.passwordLabel{
+    margin-top: 10px;
+    margin-right: 350px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: larger;
+    color: rgb(24, 23, 23);
+}
+.passwordFieldDiv{
+    height: fit-content;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PasswordField{
+    height: 60px;
+    border-radius: 0.3rem 0rem 0rem 0.3rem;
+    width: 100%;
+    border-right-style: none;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-top: -10px;
+
+}
+.eye{
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-width: 1.75px;
+    border-radius: 0rem 0.3rem 0.3rem 0rem;
+    border-color: gray;
+    height: 60px;
+    padding-right: 10px;
+    margin-top: -10px;
+
+}
+
+.PasswordField::placeholder{
+    letter-spacing: 1px;
+    font-size: large;
+    padding: 5px;
+    font-family: "Outfit";
+}
+
+.forgotPassword{
+    color: gray;
+    padding-right: 50%;
+    margin-top: 5px;
+    cursor: pointer;
+    font-family: "Outfit";
+
+}
+
+.btns{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.loginBtn{
+    width: 32%;
+    height: 50px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: medium;
+    border: none;
+    border-radius: 0.3rem;
+    background:#FF7070;
+    color: white;
+}
+
+.loginBtn:hover{
+    transition: 0.5s ease-in-out;
+    background-color: white;
+    color: #FF7070;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.foundationLoginBtn{
+    font-size: medium;
+    width: 32%;
+    height: 50px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.3rem;
+    background:#FF7070;
+    color: white;
+}
+
+.foundationLoginBtn:hover{
+    transition: 0.5s ease-in-out;
+    background-color: white;
+    color: #FF7070;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Or{
+    margin-top: -16px;
+}
+
+.regFoundationLink{
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.innerLinks{
+    display: flex;
+    gap: 4px;
+}
+
+.innerLinks p{
+    color: rgb(24, 23, 23);
+}
+
+.signup .link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.signup span{
+    font-family: "Outfit";
+    color: #FF7070;
+}
+
+@media (max-width: 1000px){
+    .Main{
+        flex-direction: column;
+    }
+    .coverPhoto{
+        width: 100%; 
+    }
+    .coverPhoto h1{
+        font-size: 5vmax;
+        text-align: center;
+        width: 70%;
+        position: relative;
+        left: 10px;
+        margin-top: -50px;
+    }
+    .coverPhoto p{
+        display: none;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+        justify-content: flex-start;
+        align-items: center; 
+    }
+    .fromBlock{
+        margin-top: 0px;
+        width: 100%;
+        position: relative;
+        height: fit-content;  
+    }
+    .form{
+        border: none;
+    }
+    .form h1{
+        display: none;
+    }
+
+    .emailLabel,
+    .passwordLabel{
+        margin-right: 0px;
+        color: aliceblue;
+
+    }
+    .Image{
+        filter: brightness(60%);
+        object-fit: cover;
+        height: 100vh;
+    }
+    .EmailField,
+    .PasswordField{
+        border: none;
+        height: 50px;
+    }
+    /* .PasswordField{
+        width: 80%;
+    } */
+    .EmailField::placeholder
+    ,.PasswordField::placeholder{
+        font-size: 4vmin;
+        letter-spacing: 0.5px;
+    }
+
+    .loginBtn{
+        font-size: 4vmin;
+    }
+    .foundationLoginBtn{
+        font-size: 4vmin;
+    }
+    .innerLinks p{
+        margin-top: 2px;
+        color: white;
+        font-size: 4vmin;
+    }
+
+    .signup{
+        color: aliceblue;
+    }
+    .link span{
+        color: #f76767;
+    }
+    .eye{
+        background-color: white;
+        height: 52.75px;
+    }
+    .forgotPassword{
+        color: #f6caca;
+        margin-left: 55px;
+    }
+}

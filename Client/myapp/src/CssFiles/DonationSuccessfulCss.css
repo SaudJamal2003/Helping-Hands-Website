@@ -1,0 +1,67 @@
+.donation-completion {
+    background-color: #ff7070;
+    height: 768px;
+    position: relative;
+    width: 100%;
+  }
+  
+.donation-successful {
+    color: white;
+    font-family: "Outfit", Helvetica;
+    font-size: 68px;
+    font-weight: 400;
+    left: 610px;
+    letter-spacing: 0;
+    line-height: 72.8px;
+    position: absolute;
+    text-align: center;
+    font-weight:500;
+    top: 77px;
+  }
+  
+.text-wrapper {
+    color: white;
+    font-family: "Outfit", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 550px;
+    letter-spacing: 0;
+    line-height: 52.4px;
+    position: absolute;
+    text-align: center;
+    top: 520px;
+    white-space: nowrap;
+    
+  }
+.tickmark2 {
+    height: 250px;
+    left: 650px;
+    position: absolute;
+    top: 220px;
+    width: 250px;
+    animation: ani 3s linear
+    infinite;
+  }
+
+.BackBtn{
+  border: none;
+  height: 50px;
+  width: 120px;
+  border-radius: 0.5rem;
+  font-size: larger;
+  font-weight: 500;
+  color: white;
+  background-color: #ad4444;
+  margin-top: 600px;
+  margin-left: 710px;
+  letter-spacing: 1.2px;
+
+}
+/* @keyframes ani {
+  0%{
+    transform:rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);   
+  }
+   */

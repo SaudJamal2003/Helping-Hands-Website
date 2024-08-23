@@ -1,0 +1,287 @@
+.logo{
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.AboutUText{
+    color: #000;
+    font-family: "outfit";
+    font-size: 38px;
+    font-weight: 700;
+    height: 114px;
+    left: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 100px;
+}
+.dot{
+    color: #FF7070;
+}
+.overlap1{
+    height: 152px;
+    left: 1000px;
+    position: absolute;
+    top: 90px;
+    width: 508px;
+}
+.smallvector{
+    height: 100px;
+    top: 0px;
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    object-fit: cover;
+}
+.we-started{
+    color: #000;
+    font-family: "outfit";
+    font-size: 25px;
+    font-weight: 500;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+    width: 492px;
+}
+.overlap2{
+    height: 52px;
+    left: 425px;
+    position: absolute;
+    top: 280px;
+    width: 204px;
+}
+.saudtxt{
+    color: #000;
+    font-family: "outfit";
+    font-size: 26px;
+    font-weight: 700;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+}
+.underline1{
+    height: 6px;
+    left: 0;
+    position: absolute;
+    top: 30px;
+    width: 60px;
+}
+.overlap3{
+    height: 50px;
+    left: 500px;
+    position: absolute;
+    top: 580px;
+    width: 234px;
+}
+.usaidtxt{
+    color: #000;
+    font-family: "outfit";
+    font-size: 26px;
+    font-weight: 700;
+    left: 2px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+}
+.contactustxt{
+    color: #000;
+    font-family: "outfit";
+    font-size: 28px;
+    font-weight: 700;
+    left: 101px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 950px;
+    text-align: right;
+}
+.overlap4{
+    height: 324px;
+    left: 0px;
+    position: absolute;
+    top: 280px;
+    width: 432px;
+}
+.linevector1{
+    height: 240px;
+    left: 0px;
+    position: absolute;
+    top: 84px;
+    width: 324px;
+}
+.saudimage{
+    height: 210px;
+    left: 156px;
+    position: absolute;
+    top: 0px;
+    width: 226px;
+}
+.saudimage:hover{
+    filter: drop-shadow(-12px 4px 0px #FF7070);
+}
+
+.overlap5{
+    height: 388px;
+    left: 1112px;
+    position: absolute;
+    top: 580px;
+    width: 381px;
+}
+.linevector1{
+    height: 180px;
+    left: 131px;
+    position: absolute;
+    top: 208px;
+    width: 250px;
+}
+.usaidimage{
+    height: 210px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 226px;
+}
+.usaidimage:hover{
+    filter: drop-shadow(12px 4px 0px #FF7070);
+}
+
+.alwaystxt{
+    color: transparent;
+    font-family: "outfit";
+    font-size: 34px;
+    font-weight: 400;
+    /* height: 114px; */
+    left: 781px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 950px;
+    text-align: right;
+    width: 508px;
+}
+.always{
+    color: #000;
+}
+.ready{
+    color: #FF7070;
+}
+.assist{
+    color: #000;
+}
+.workedon-saud{
+    color: black;
+    font-family: "outfit";
+    font-size: 22px;
+    font-weight: 400;
+    /* height: 114px; */
+    left: 1037px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 290px;
+    text-align: right;
+}
+.saudskills{
+    height: 120px;
+    left: 920px;
+    object-fit: cover;
+    position: absolute;
+    top: 340px;
+    width: 300px;
+}
+.saudskills:hover{
+    filter: drop-shadow(0px 4px 5px #FF7070);
+}
+.workedon-usaid{
+    color: black;
+    font-family: "outfit";
+    font-size: 22px;
+    font-weight: 400;
+    /* height: 114px; */
+    left: 205px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 580px;
+    text-align: right;
+}
+.usaidskills{
+    height: 168px;
+    left: 100px;
+    object-fit: cover;
+    position: absolute;
+    top: 625px;
+    width: 321px;
+}
+.usaidskills:hover{
+    filter: drop-shadow(0px 4px 5px #FF7070);
+}
+.para1{
+    color: #0000007a;
+    font-family: "outfit";
+    font-size: 12px;
+    font-weight: 400;
+    height: 179px;
+    left: 425px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    top: 330px;
+    /* text-align: right; */
+    width: 460px;
+}
+.para2{
+    color: #0000007a;
+    font-family: "outfit";
+    font-size: 12px;
+    font-weight: 400;
+    height: 179px;
+    left: 500px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    top: 625px;
+    /* text-align: right; */
+    width: 567px;
+}
+.email1{
+    color: #000000;
+    font-family: "outfit";
+    font-size: 24px;
+    font-weight: 300;
+    /* height: 179px; */
+    left: 101px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1020px;
+    text-align: right;
+    /* width: 567px; */
+}
+.email2{
+    color: #000000;
+    font-family: "outfit";
+    font-size: 24px;
+    font-weight: 300;
+    /* height: 179px; */
+    left: 101px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 990px;
+    text-align: right;
+    /* width: 567px; */
+}
+.bottomrect{
+    height: 38px;
+    left: 0px;
+    /* object-fit: cover; */
+    position: absolute;
+    top: 1100px;
+    width: 100%;
+}

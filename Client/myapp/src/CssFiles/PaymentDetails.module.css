@@ -1,0 +1,623 @@
+
+.logo{
+  position: absolute;
+  margin-left: 3.4%;
+  margin-top: -8%;
+}  
+.BackGroundPic{
+   left: 10px;
+   object-fit: cover;
+   position: fixed  ;
+   top: 15px;
+   /* bottom: 23px; */
+   /* width: 526px; */
+   height: 680px;
+   width: 500px;
+   border-radius: 15px;
+   z-index: -1;
+}
+
+.form1 {
+  background: rgba(255, 255, 255, 0.15); /* Transparent white background */
+  backdrop-filter: blur(20px); /* Apply background blur */
+  border-radius: 20px; /* Rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.15); /* Border with transparency */
+  box-shadow: 0 8px 32px 0 hwb(8 13% 29% / 0.37); /* Shadow effect */
+  position: relative;
+  border-radius: 20px;
+  height: 400px;
+  width: 436px;
+  margin-top: 10%;
+  margin-left: 2.5%;
+
+}
+
+.amountLabel {
+  color: #ffffff;
+  font-family: 'Outfit';
+  font-size: 20px;
+  font-weight: 500;
+  left: 35px;
+  letter-spacing: .2px;
+  line-height: 24.1px;
+  position: absolute;
+  top: 240px;
+  white-space: nowrap;
+}
+
+.overlap-2 {
+  background-color: #f2f4f5;
+  border-radius: 8px;
+  height: 55px;
+  left: 35px;
+  position: absolute;
+  top: 271px;
+  width: 362px;
+}
+.overlap-3 {
+  background-color: #ffffff;
+  border-radius: 8px 0px 0px 8px;
+  height: 55px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 78px;
+}
+.Charity {
+  background-color: #ffffff;
+  font-family:'Outfit'; 
+  width: 90px;
+  height: 60px;
+  border-radius: 8px 0px 0px 8px;
+  font-weight: 700;
+  color: #484848;
+  text-align: center;
+  margin-top: 12%;
+  margin-left: 8%;
+  padding: 17px 20px;
+  font-size: larger;
+  letter-spacing: 0.5px;
+}
+
+.inputCharityDiv{
+  margin-top: -15.55%;
+  font-family:'Outfit';
+}
+
+.FoundationsDropDown{
+  background-color: #ffffff;
+  width: 260px;
+  height: 60px;
+  font-family:'Outfit';
+  border-radius: 0px 8px 8px 0px;
+  font-weight: 700;
+  color: #484848;
+  text-align: center;
+  /* margin-top: 16%; */
+  margin-left: 28%;
+  padding: 15px 20px;
+  font-size: large;
+  letter-spacing: 0.5px;
+  border: none;
+}
+
+.amount{
+  background-color: #ffffff;
+  width: 90px;
+  height: 55px;
+  border-radius: 8px 0px 0px 8px;
+  font-weight: 700;
+  color: #484848;
+  text-align: center;
+  margin-top: 16%;
+  margin-left: 8%;
+  padding: 15.5px 20px;
+  font-size: large;
+  letter-spacing: 0.5px;
+}
+.inputamountDiv{
+  margin-top: -14.5%;
+}
+.amountInput{
+  height: 55px;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  margin-left: 28%;
+  width: 65% ;
+}
+
+.amountInput::placeholder{
+  color: #b7b7b7;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+
+.text-wrapper-3 {
+  color: #696b736e;
+  font-family: "Outift", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  height: 15px;
+  left: 105px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  top: 21px;
+  white-space: nowrap;
+}
+
+.Ellipses{
+margin-top: 60%;
+}
+
+.formHeader1 {
+  color: #ffffff;
+  font-family:'Outfit';
+  font-size: 32px;
+  font-weight: 700;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: 33px;
+  padding: 37px;
+}
+.formHeader2 {
+  color: #ffffff;
+  font-family:'Outfit';
+  font-size: 25px;
+  font-weight: 500;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: 21.4px;
+  position: absolute;
+  top: 115px;
+  white-space: nowrap;
+}
+.overlap-4 {
+  background-color: #f2f4f5;
+  border-radius: 8px;
+  height: 55px;
+  left: 34px;
+  position: absolute;
+  top: 153px;
+  width: 363px;
+}
+.overlap-5 {
+  background-color: #ffffff;
+  border-radius: 8px 0px 0px 8px;
+  height: 55px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 103px;
+}
+.text-wrapper-6 {
+  color: #353535;
+  font-family: "Outift";
+  font-size: 16px;
+  font-weight: 400;
+  height: 11px;
+  left: 123px;
+  letter-spacing: 0;
+  line-height: 24.1px;
+  position: absolute;
+  top: 22px;
+  white-space: nowrap;
+}
+.text-wrapper-7 {
+  color: #000000;
+  font-family: "Outift", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  height: 15px;
+  left: 368px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  top: 291px;
+  white-space: nowrap;
+}
+
+.heading {
+  color: #000000;
+  font-family:'Outfit';
+  font-size: 38px;
+  font-weight: 700;
+  left: 602px;
+  letter-spacing: 0;
+  line-height: 40.7px;
+  position: absolute;
+  top: 30px;
+  white-space: nowrap;
+}
+
+.stateHeader {
+  color: #000000;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  height: 33px;
+  left: 602px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  top: 435px;
+  white-space: nowrap;
+}
+
+.CityHeader {
+  color: #000000;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  height: 33px;
+  left: 602px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  top: 325px;
+  white-space: nowrap;
+}
+
+.ExpiryHeader{
+  color: #000000;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  height: 33px;
+  left: 600px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  top: 358px;
+  white-space: nowrap;
+}
+
+.CvcHeader {
+  color: #000000;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  height: 33px;
+  left: 602px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  top: 545px;
+  white-space: nowrap;
+}
+
+.ZipHeader{
+  /* color: #000000;
+  font-family: "Outfit", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  height: 33px;
+  left: 857px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  top: 545px;
+  white-space: nowrap; */
+
+  color: #000000;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  height: 33px;
+  left: 855px;
+  top: 435px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  
+  white-space: nowrap;
+}
+
+.CardNumHeader {
+  color: #000000;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  left: 603px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  top: 110px;
+  white-space: nowrap;
+}
+
+.HolderHeader{
+  color: #000000;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  left: 603px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  top: 220px;
+  white-space: nowrap;
+}
+
+.StateInputDiv {
+  background-color: #f2f4f5;
+  border-radius: 8px;
+  height: 55px;
+  left: 602px;
+  position: absolute;
+  top: 475px;
+  width: 199px;
+}
+
+.stateInput{
+  width: 199px;
+  height: 55px;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: #f2f4f5;
+}
+
+.stateInput::placeholder{
+  color: #b7b7b7;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.text-wrapper-15 {
+  color: #696b736e;
+  font-family: "Outift", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  height: 33px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  top: 12px;
+  white-space: nowrap;
+}
+
+ .CityInputDiv {
+  background-color: #f2f4f5;
+  border-radius: 8px;
+  height: 55px;
+  left: 602px;
+  position: absolute;
+  top: 365px;
+  width: 454px;
+}
+
+.cityInput{
+  width: 457px;
+  height: 55px;
+  background-color: #f2f4f5 ;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.cityInput::placeholder{
+  color: #b7b7b7;
+  letter-spacing: 1px;
+  font-size: 20px; 
+}
+
+.ExpiryInputDiv{
+  background-color: #f2f4f5;
+  border-radius: 8px;
+  height: 55px;
+  left: 600px;
+  position: absolute;
+  top: 0;
+  width: 199px;
+}
+
+.ExpiryInput{
+  width: 199px;
+  height: 55px;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: #f2f4f5;
+}
+
+.ExpiryInput::placeholder{
+  color: #b7b7b7;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.CvcInputDiv{
+  background-color: #f2f4f5;
+  border-radius: 8px;
+  height: 55px;
+  left: 602px;
+  position: absolute;
+  top: 585px;
+  width: 199px;
+}
+
+.CvcInput{
+  width: 199px;
+  height: 55px;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: #f2f4f5;
+}
+
+.CvcInput::placeholder{
+  color: #b7b7b7;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.ZipInputDiv{
+  background-color: #f2f4f5;
+  border-radius: 8px;
+  height: 55px;
+  position: absolute;
+  top: 585px;
+  width: 199px;
+  left: 855px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  top: 475px;
+  white-space: nowrap;
+}
+
+.zipCodeInput{
+  width: 199px;
+  height: 55px;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: #f2f4f5;
+}
+
+.zipCodeInput::placeholder{
+  color: #b7b7b7;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.text-wrapper-16 {
+  color: #696b736e;
+  font-family: "Outift", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  height: 33px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 33.1px;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+}
+
+.HolderInputDiv{
+  background-color: #f2f4f5;
+  border-radius: 8px;
+  height: 55px;
+  left: 602px;
+  position: absolute;
+  top: 260px;
+  width: 457px; 
+}
+
+.HolderInput{
+  background-color: #f2f4f5;
+  width: 457px; 
+  height: 55px;
+  border-radius: 8px;
+  border:none;
+}
+
+.HolderInput::placeholder{
+  color: #b7b7b7;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.CardNumInputDiv {
+  background-color: #f2f4f5;
+  border-radius: 8px;
+  height: 55px;
+  left: 602px;
+  position: absolute;
+  top: 150px;
+  width: 457px;
+}
+
+.CardNumInput{
+  width: 457px;
+  height: 55px;
+  background-color: #f2f4f5 ;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.CardNumInput::placeholder{
+  color: #b7b7b7;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.text-wrapper-17 {
+  color: #696b736e;
+  font-family: "Outfit", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0.77px;
+  line-height: 33.1px;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+}
+
+.text {
+  color: #000000;
+  font-family: "Outift", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  height: 33px;
+  left: 828px;
+  letter-spacing: 2.53px;
+  line-height: 33.1px;
+  position: absolute;
+  top: 318px;
+  white-space: nowrap;
+}
+
+.text-2 {
+  color: #000000;
+  font-family: "Outift", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  height: 33px;
+  left: 1083px;
+  letter-spacing: 2.53px;
+  line-height: 33.1px;
+  position: absolute;
+  top: 318px;
+  white-space: nowrap;
+}
+
+.DonateBtn{
+  font-size: larger;
+  font-weight: 700;
+  border:#FF7070;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #FF7070;
+  border-color: #FF7070;
+  border-radius: 7px;
+  width: 190px;
+  /* top:500px; */
+  margin-left: 855px;
+  margin-top: 23px;
+  height: 58px;
+}
+
+.DonateBtn:hover{
+  transition: 0.5s ease;
+  color: #FF7070;
+  border-style: solid;
+  border-color: #FF7070;
+  background-color: transparent ;
+}
+ .successfulLink.DonateBtn{
+  
+  margin-left: 855px;
+  margin-top: 15px;
+
+ }
+/* .Ellipses{
+  display: flex;
+  justify-content: flex-end;
+} */
+
+/* .Ellipses{
+  position: absolute;
+  margin-left: 200%;
+} */

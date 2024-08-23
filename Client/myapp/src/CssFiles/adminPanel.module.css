@@ -1,0 +1,564 @@
+.main{
+    display: flex;
+    /* gap: 50px; */
+}
+.navbar{
+    background-color: #292929;
+    width: 21%;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 150px;
+    margin-top: 0px;
+    object-fit: cover;
+    height: 42px;
+    width: 91px;
+}
+.mainMenu{
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #FAFAFA;
+    font: medium;
+    font-size: 20px;
+}
+.mainMenu button{
+    height: 52px;
+    width: 100%;
+    border-radius: 4.5px;
+    font: medium;
+    font-size: 20px;
+    color: #FAFAFA;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 17px;
+    align-items: center;
+    border: none;
+}
+
+.mainMenu button p{
+    margin-top: 15.25px;
+}
+
+.adminBtn{
+    background-color: #FF7070;
+}
+
+.DashBtn {
+    background-color: #292929;
+    text-decoration: none;
+    /* color: inherit; */
+}
+
+.accountsBtn{
+    background-color: #292929;
+}
+
+.statsBtn{
+    background-color: #292929;
+}
+.accountsBtn:hover{
+    background-color: #FF7070;
+    transition: 0.5s;
+}
+.DashBtn:hover{
+    background-color: #FF7070;
+    transition: 0.5s;
+}
+.statsBtn:hover{
+    background-color: #FF7070;
+    transition: 0.5s;
+}
+
+.teams{
+    cursor: pointer;
+    font: medium;
+    font-size: 20px;
+    color: #FAFAFA;
+    margin-right: 65px;
+}
+.utility{
+    cursor: pointer;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 1px; */
+    font: medium;
+    font-size: 18px;
+    color: #FAFAFA;
+}
+.setting{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.setting p{
+    margin-top: 12px;
+}
+.logout{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.logout p{
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.pageContent{
+    width: 79%;
+    background-color: #3F3F3F;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.detailsDiv{
+    /* background-color: #FF7070; */
+    display: flex;
+    gap: 150px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.volunteerRequest{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* background-color: #00C472; */
+    width: 38%;
+}
+
+.header{
+    color: #FAFAFA;
+    display: flex;
+    gap: 60px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: #FAFAFA;
+    border: none;
+    background-color: #292929;
+    border-radius: .5rem;
+    height: fit-content;
+  }
+  .dropbtn{
+    height: 40px;
+    border-radius: .4rem;
+    background-color: #3F3F3F;
+    border: none;
+    color: #FAFAFA;
+    font-size: medium;
+    margin-top: -1px;
+    width: 100%;
+  }
+
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    color: #FAFAFA;
+    border: none;
+    background-color: #292929;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdownContent a {
+    color: #FAFAFA;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdownContent a:hover {
+    background-color: #4a4848;
+    color: #FF7070;
+  }
+
+  .dropdown:hover .dropdownContent {
+    display: block;
+  }
+
+.newVolunteers{
+    color: #FAFAFA;
+
+}
+.scrollBar{
+    height: 200px;
+    overflow: auto;
+}
+.scrollBar::-webkit-scrollbar{
+    width: 0px;
+}
+.scrollable-div::-webkit-scrollbar-thumb {
+    background-color: #FF7070; 
+    border-radius: 5px; 
+}
+.scrollable-div::-webkit-scrollbar-track:hover {
+    background-color: #292929; 
+}
+#tableScroll{
+    height: 200px;
+}
+.outerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #292929;
+    height: 190px;
+    border-radius: .8rem;
+    margin: 5px;
+    width: 90%;
+}
+.volDetails{
+    color: #FAFAFA;
+    display: flex;
+    gap: 10px;
+}
+
+
+.personalDetails p{
+    font-size: small;
+    margin-top: -18px;
+    color: #A0A0A0;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.pic{
+    object-fit: cover;
+    height: 70px;
+    width: 70px;
+}
+.approveBtn{
+    border: none;
+    color: #FAFAFA;
+    background-color: #00C472;
+    border-radius: .5rem;
+    height: 48px;
+    width: 150px;    
+}
+.rejectBtn{
+    border: none;
+    color: #FAFAFA;
+    background-color: #F60000;
+    border-radius: .5rem;
+    height: 48px;
+    width: 150px;    
+}
+.searchVolunteer form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchVolunteer h5{
+    color: #FAFAFA;
+    font: medium;
+    font-size: 25px;
+}
+
+.searchVolunteer input{
+    width: 100%;
+    height: 55px;
+    border: none;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    background-color: #292929;
+    color: #A0A0A0;
+}
+.searchVolunteer input::placeholder{
+    color: #A0A0A0;
+}
+.searchBtn{
+    border: none;
+    background-color: #292929;
+    height: 55px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    margin-top: -0.1px;
+    width: 10%;
+}
+
+.countDiv{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 38%;
+    justify-content:flex-end;
+    align-items: flex-start;
+}
+.volunteerCount{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border: 3px dashed #FAFAFA;
+    width: 350px;
+    height: 165px;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.volunteerCount h4{
+    color: #FAFAFA;
+    font-weight:bold;
+}
+.volunteerCount h2{
+    font-weight: bolder;
+}
+.totalDonation h2{
+    font-weight: bolder;
+}
+
+.totalDonation{
+    display: flex;
+    flex-direction: column;
+    /* gap: 2px; */
+    border: 3px dashed #FAFAFA;
+    width: 350px;
+    height: 185px;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.totalDonation h4{
+    color: #FAFAFA;
+    font-weight:bold;
+}
+
+.tableBtnHeader{
+    width: 77%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 0px 0px;
+    align-items: center;
+    background-color: #3F3F3F;
+    color: #A0A0A0;
+    font-size: 20px;
+    font-weight: normal;
+    height: 60px;
+    border-top: 2px solid #292929; 
+    border-bottom: 2px solid #292929; 
+    border-left: none; 
+    border-right: none;
+    margin-left: 50px;
+}
+
+.tableBtn{
+    width: 77%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 0px 0px;
+    align-items: center;
+    background-color: #3F3F3F;
+    color: #FAFAFA;
+    font-size: 13px;
+    font-weight: normal;
+    height: 60px;
+    border-top: none; 
+    border-bottom: 2px solid #292929; 
+    border-left: none; 
+    border-right: none;
+    margin-left: 50px;
+}
+.QuerytableBtn{
+    width: 77%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 0px 0px;
+    align-items: center;
+    background-color: #3F3F3F;
+    color: #FAFAFA;
+    font-size: 13px;
+    font-weight: normal;
+    height: 60px;
+    border-top: none; 
+    border-bottom: 2px solid #292929; 
+    border-left: none; 
+    border-right: none;
+    margin-left: 50px;
+}
+
+
+@media(max-width: 990px){
+    .navbar{
+        flex-direction: row;
+        width: 100%;
+        height: 55px;
+        position: fixed;
+        bottom: 0px;
+        border-radius: 0px;
+    }
+    .logo{
+        display: none;
+    }
+    .mainMenu h4{
+        display: none;
+    }
+    .mainMenu{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 60px;
+        gap: 60px;
+    }
+    .mainMenu button{
+        width: fit-content;
+    }
+    .mainMenu button p{
+        display: none;
+    }
+    .teams{
+        display: none;
+    }
+    .utility{
+        display: none;
+        width: 20%;
+        gap: 20px;
+        flex-direction: row;
+    }
+    .utility p{
+       display: none;
+    }
+    .pageContent{
+        width: 100%;
+    }
+    .header{
+        gap: 25px;
+    }
+    .dropdown{
+        font-size: 3vmin;
+    }
+    .dropdown option{
+        font-size: 2.5vmin;
+    }
+    .pic{
+        display: none;
+        height: 40px;
+        width: 40px;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .approveBtn{
+        font-size: 3vmin;
+        height: 40px;
+        width: 120px;
+    }
+    .rejectBtn{
+        font-size: 3vmin;
+        height: 40px;
+        width: 120px;
+    }
+    .volDetails{
+        font-size: 3vmin;
+        gap: 20px;
+    }
+    .date{
+        display: none;
+    }
+    .personalDetails{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .personalDetails p{
+        font-size: 3vmin;
+    }
+    .detailsDiv{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .volunteerRequest{
+        width: 100%;
+        justify-content: center;
+    }
+    .outerCard{
+        flex-direction: row;
+        width: 90%;
+        justify-content: space-around;
+    }
+    .countDiv{
+        flex-direction: row;
+        width: 80%;
+        justify-content: center;
+        padding-right: 38px;
+    }
+    .detailsDiv{
+        gap: 30px;
+    }
+    .searchVolunteer{
+        width: 90%;
+    }
+    .btnSvg{
+        padding-right: 8px;
+    }
+    .searchVolunteer h5{
+        font-size: 5vmin;
+    }
+    .searchVolunteer input::placeholder{
+        font-size: 3vmin;
+    }
+    .people{
+        display: none;
+    }
+    .totalDonation .percent{
+        display: none;
+    }
+    .graph{
+        height: 25px;
+        width: 140px;
+        object-fit: cover;
+    }
+    .volunteerCount h4{
+        font-size: 4vmin;
+    }
+    .totalDonation h4{
+        font-size: 4vmin;
+    }
+    .volunteerCount{
+        height: 120px;
+    }
+    .totalDonation{
+        height: 120px;
+    }
+    .tableBtnHeader{
+        font-size: 3vmin;
+    }
+    .tableBtn{
+        font: 2vmin;
+        gap: 10px;
+    }
+
+}
+
+@media(max-width: 500px){
+    .approveBtn{
+        height: 30px;
+        width: 95px;
+        border-radius: 0px;
+    }
+    .rejectBtn{
+        height: 30px;
+        width: 95px;
+        border-radius: 0px;
+    }
+}
+
+@media(max-width: 375px){
+    .mainMenu{
+        gap: 30px;
+    }
+}

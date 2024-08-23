@@ -1,0 +1,228 @@
+.main{
+    display: flex;
+}
+
+.main form{
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+form h1{
+    font-weight: bold;
+    color: #161B32;
+}
+
+.fields{
+    width: 82%;
+    justify-content: center;
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.fields p{
+    margin-bottom: -5px;
+}
+
+.emailfield{
+    height: 50px;
+    width: 80%;
+    border-style:  solid ;
+    border-color: #BABDD3;
+    border-radius: 0.4rem;
+}
+
+.passwordDiv{
+    display: flex;
+    align-items: center;
+}
+
+.passfield{
+    height: 50px;
+    width: 72%;
+    border-radius: 0.4rem 0rem 0rem 0.4rem;
+    border-color: #FF7070;
+    border-left-style: solid ;
+    border-top-style: solid ;
+    border-bottom-style: solid ;
+    border-right-style: none ;
+}
+
+.eyeImage{
+    height: 50px;
+    border-width: 2px;
+    border-color: #FF7070;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-radius: 0rem 0.4rem 0.4rem 0rem;
+    padding-right: 15px;
+
+}
+
+
+.forgetPass{
+    color: #8f919c;
+}
+
+button{
+    background-color: #FF7070;
+    color: #ffffff;
+    border: none;
+    width: 80%;
+    height: 50px;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 0.4rem;
+    margin-top: 20px;
+}
+
+.signup{
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 80%;
+    color: #161B32;
+    
+}
+.link span{
+    color: #FF7070;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pictureDiv{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 2.5rem 0rem 0rem 2.5rem;
+    filter: brightness(90%);
+}
+
+.imageText{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: absolute;
+    margin-top: -5rem;
+    margin-right: 80px;
+}
+
+.imageText h1{
+    color:#ffffff;
+    font-weight: bolder;
+    font-size: 50px;
+    width: 90%;
+    text-align: left;
+}
+
+.imageText{
+    text-align: left;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.peopleImage{
+    width: 110px;
+    object-fit: cover;
+}
+
+.arrow{
+    width: 20%;
+    position: absolute;
+    margin-right: 58%;
+    margin-top: 25%;
+    transform: rotate(-5deg) 
+}
+
+@media(max-width: 1000px){
+    .main{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .pictureDiv{
+        width: 100%;
+    }   
+    .image{
+        height: 200px;
+        border-radius: 0px;
+        object-fit: cover;
+        filter: brightness(50%);
+    }
+    .imageText{
+        width: 100%;
+        padding-left: 100px;
+    }
+    .imageText h1{
+        font-size: 3vmax;
+        width: 100%;
+        margin-top: 2.1rem;
+        text-align:center;
+    }
+    .imageText p{
+        display: none;
+    }
+    .arrow{display: none;}
+
+    .peopleImage{
+        display: none;
+    }
+    .main form{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .fields{
+        padding-left: 20px;
+    }
+    .emailfield{
+        width: 90%;
+    }
+    .passfield{
+        width: 77%;
+    }
+    .main form h1{
+        font-size: 3vmax;
+    }
+    .main form p{
+        font-size: 3.2vmin;
+    }
+    .main form input::placeholder{
+        font-size: 3.1vmin;
+    }
+    button{
+        font-size: 3.2vmin;
+        width: 90%;
+    }
+    .forgetPass{
+        font-size: 3.2vmin;
+    }
+    .signup p{
+        font-size: 3.2vmin;
+    }
+    .link span{
+        font-size: 3.2vmin;
+    }
+
+}
+
+
+
+
+
+
